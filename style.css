@@ -221,12 +221,39 @@ font-weight: bold;
 
 .inflation{
   width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 .bg_img {
-  background-image: url('./assets/inflation.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+}
+
+.bg_img img {
+  width: 63%;
+  align-self: center;
+}
+.info_contenedor {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  margin: 50px;
+}
+
+.info_over {
+  margin: 50px;
+  background-color: red;
+  width: 25%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
