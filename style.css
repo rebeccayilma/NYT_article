@@ -92,7 +92,7 @@ main{
   flex-direction: column;
 }
 
-.banner  {
+.banner {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -116,4 +116,21 @@ main{
 }
 .banner p span {
   color: #888;
+}
+
+/* article */
+
+.article {
+  margin: 2em;
+  background-color: tan;
+  width: 35%;
+}
+.article_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.date_n_social {
+  display: flex;
+  
 }
