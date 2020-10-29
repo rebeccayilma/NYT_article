@@ -110,3 +110,10 @@ main{
   font-weight: bold;
   margin: 2em 0 1em 0;
 }
+.banner p {
+  width: 63%;
+  color: #666;
+}
+.banner p span {
+  color: #888;
+}
