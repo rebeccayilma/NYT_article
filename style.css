@@ -47,7 +47,7 @@ table {
 
 nav {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 padding: 0.3em;
 border-bottom: solid 1px #e2e2e2;
@@ -83,4 +83,30 @@ header button {
   padding: 0.3em 0.5em 0.3em 0.5em;
   border-radius: 0.1em;
   border: solid rgb(85, 121, 147);
+}
+
+/* Main */
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.banner img {
+  width: 63%;
+}
+.banner h1 {
+  font-family: Georgia;
+  font-size: xx-large;
+  font-style: italic;
+  width: 30%;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
 }
