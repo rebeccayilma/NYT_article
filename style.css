@@ -218,3 +218,15 @@ font-weight: bold;
   height: 75px;
   padding-right: 0.6em;
 }
+
+.inflation{
+  width: 100%;
+}
+
+.bg_img {
+  background-image: url('./assets/inflation.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
