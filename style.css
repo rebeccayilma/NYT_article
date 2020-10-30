@@ -493,7 +493,7 @@ iframe {
   background-color: rgb(85, 121, 147);
   color: white;
   font-weight: bold;
-  font-size: 0.7em;
+  font-size: small;
   padding: 0.6em 6em 0.6em 6em;
   border-radius: 0.3em;
   border: solid rgb(85, 121, 147);
@@ -502,4 +502,13 @@ iframe {
 
 .footer_button .social_icons a {
   text-decoration: none;
+}
+
+.other_articles {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-template-rows: auto;
+}
+.suggested {
+  
 }
