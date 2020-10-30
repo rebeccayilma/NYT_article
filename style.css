@@ -174,8 +174,8 @@ nav {
 }
 
 .social_icons svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   text-decoration: none;
   background-color: #eee;
   padding: 0.5em;
@@ -455,3 +455,51 @@ iframe {
   color: #888;
 }
 
+.second_banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second_banner img {
+  width: 35%;
+}
+
+.second_banner figcaption {
+  width: 35%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #666;
+  line-height: 1.4em;
+  margin-top: 1em;
+}
+
+.article_footer p{
+  color: #666;
+  font-size: 60%;
+  font-family: sans-serif;
+}
+
+.article_footer a { 
+  color: #666;
+}
+
+.footer_button {
+  display: flex;
+  margin-top: 2em;
+}
+
+.footer_button button {
+  background-color: rgb(85, 121, 147);
+  color: white;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 0.6em 6em 0.6em 6em;
+  border-radius: 0.3em;
+  border: solid rgb(85, 121, 147);
+  margin-right: 3em;
+}
+
+.footer_button .social_icons a {
+  text-decoration: none;
+}
