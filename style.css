@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap");
+
 html,
 body,
 div,
@@ -84,10 +85,11 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -101,22 +103,25 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote :before,
+blockquote :after,
+q :before,
+q :after {
   content: "";
   content: none;
 }
@@ -162,6 +167,7 @@ nav {
 
 .date {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .social_a {
@@ -216,7 +222,7 @@ main {
 }
 
 .banner h1 {
-  font-family: Georgia;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: xx-large;
   font-style: italic;
   width: 33%;
@@ -273,9 +279,6 @@ main {
   padding-top: 1em;
 }
 
-.date {
-  font-size: 16px;
-}
 
 .article_info a {
   color: black;
@@ -470,7 +473,7 @@ iframe {
   margin-top: 1em;
 }
 
-.article_footer p{
+.article_footer p {
   color: #666;
   font-size: 60%;
   font-family: sans-serif;
@@ -496,13 +499,12 @@ iframe {
   margin-right: 3em;
 }
 
-.footer_button .social_icons a {
+.social_icons a {
   text-decoration: none;
 }
 
 .wrapper_grid {
   width: 65%;
-  /* background-color: aqua; */
 }
 
 .suggested_articles {
@@ -534,7 +536,6 @@ iframe {
   padding: 0.7em 0 0.7em 0;
   border: none;
   margin: 2em 0 3em 0;
-
 }
 
 .suggested_grid {
@@ -545,7 +546,8 @@ iframe {
   margin: 1em 0 1em 0;
 }
 
-.suggested_title p , .suggested a {
+.suggested_title p ,
+.suggested a {
   font-weight: bolder;
   font-family: sans-serif;
   text-decoration: none;
@@ -585,11 +587,13 @@ iframe {
   text-decoration: none;
   font-size: small;
 }
+
 .card_content :first-child {
   font-size: 12px;
   font-weight: bold;
   margin-top: 0.8em;
 }
+
 .card_content > h3 {
   font-weight: bold;
   margin-bottom: 00.5em;
@@ -636,10 +640,6 @@ iframe {
   width: 100%;
 }
 
-.card a {
-  cursor: pointer;
-}
-
 .subtitle {
   text-align: end;
   color: #666;
@@ -652,6 +652,7 @@ iframe {
   font-weight: lighter;
   line-height: 1.1em;
   font-size: 1.1em;
+  cursor: pointer;
 }
 
 .time {
@@ -664,7 +665,7 @@ iframe {
 .line {
   height: 1px;
   border-top: 2px solid #ddd;
-  border-bottom:  1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 0.8em;
 }
 
@@ -685,6 +686,7 @@ iframe {
   display: flex;
   flex-direction: column;
 }
+
 .categories a {
   text-decoration: none;
   color: black;
@@ -693,7 +695,7 @@ iframe {
   font-size: 15px;
 }
 
-.categories a:hover{
+.categories a:hover {
   text-decoration: underline;
 }
 
@@ -755,16 +757,17 @@ iframe {
 footer {
   margin: 1em;
   border-top: 1px solid #ddd;
-  padding: 0.6em 6em 1em 6em ;
+  padding: 0.6em 6em 1em 6em;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #666;
   font-size: x-small;
   margin-left: 1em;
   font-family: sans-serif;
 }
-footer a:hover{
+
+footer a:hover {
   text-decoration: underline;
 }
