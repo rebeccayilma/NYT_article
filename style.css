@@ -169,10 +169,6 @@ nav {
   text-decoration: none;
 }
 
-.bookmark a svg {
-  background-color: none;
-}
-
 .social_icons svg {
   width: 14px;
   height: 14px;
@@ -619,7 +615,7 @@ iframe {
 
 .right_info {
   font-size: 1.2em;
-  font-style: bolder;
+  font-weight: bolder;
 }
 
 .right_info hr {
