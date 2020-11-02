@@ -164,12 +164,12 @@ nav {
   font-family: sans-serif;
 }
 
-.social_icons a {
+.social_a {
   margin: 0 0.2em 0 0.2em;
   text-decoration: none;
 }
 
-.social_icons svg {
+.social_a svg {
   width: 14px;
   height: 14px;
   text-decoration: none;
