@@ -531,7 +531,7 @@ iframe {
 }
 
 .suggested > button {
-  width: 35%;
+  width: 33%;
   align-self: center;
   background-color: black;
   color: white;
@@ -539,7 +539,8 @@ iframe {
   border-radius: 0.2em;
   padding: 0.7em 0 0.7em 0;
   border: none;
-  margin: 1em 0 1em 0;
+  margin: 2em 0 3em 0;
+
 }
 
 .suggested_grid {
@@ -550,9 +551,15 @@ iframe {
   margin: 1em 0 1em 0;
 }
 
-.suggested_title p{
+.suggested_title p , .suggested a {
   font-weight: bolder;
   font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.suggested a:hover {
+  text-decoration: underline;
 }
 
 .suggested_title a {
@@ -623,4 +630,29 @@ iframe {
 
 .right_info a {
   line-height: 1em;
+}
+
+.card img {
+  width: 100%;
+}
+
+.subtitle {
+  text-align: end;
+  color: #666;
+  font-size: x-small;
+  margin: 0.5em 0 1.2em 0;
+}
+
+.card a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  line-height: 1.1em;
+  font-size: 1.1em;
+}
+
+.time {
+  color: #666;
+  font-size: 0.8em;
+  margin-top: 1em;
+  font-family: sans-serif;
 }
