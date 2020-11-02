@@ -4,7 +4,7 @@
 
 # Positioning and Floating Elements
 
-This project consists of building an HTML and CSS documents that make the appearance of a page from an article from the New York Times.
+This project consists in do a clone of a New York Times article page, based on an article from Space Ripples Reveal Big Bang’s Smoking Gun.
 
 ## Description of the Project
 
