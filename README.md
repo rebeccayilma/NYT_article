@@ -25,7 +25,7 @@ HTML & CSS
 
 👤 Alexis Varela
 
-- GitHub: [@alexisbec](hhttps://github.com/alexisbec)
+- GitHub: [@alexisbec](https://github.com/alexisbec)
 - LinkedIn: www.linkedin.com/in/alexis-varela-2584111b7
 - Twitter: https://twitter.com/AlexisV31667779
 
