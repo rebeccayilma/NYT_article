@@ -10,6 +10,10 @@ This project consists in do a clone of a New York Times article page, based on a
 
 This page was build to demonstrate the use of CSS grid, flexbox , and float inorder to align the of the elements in different sections of the page.
 
+## Live Link
+
+Feel free to check the [Live Demo](https://rebeccayilma.github.io/NYT_article)
+
 ## Built With
 
 HTML & CSS
@@ -33,8 +37,6 @@ HTML & CSS
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [Live Demo](https://github.com/rebeccayilma/NYT_article/issues)
 
 ## Show your support
 
