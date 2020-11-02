@@ -1,5 +1,7 @@
 ![Screenshot](https://github.com/rebeccayilma/NYT_article/blob/development/assets/Screenshot.png?raw=true)
 
+
+
 # Positioning and Floating Elements
 
 This project consists of building an HTML and CSS documents that make the appearance of a page from an article from the New York Times.
