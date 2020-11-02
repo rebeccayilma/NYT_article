@@ -126,6 +126,18 @@ table {
   border-spacing: 0;
 }
 
+footer a {
+  text-decoration: none;
+  color: #666;
+  font-size: x-small;
+  margin-left: 1em;
+  font-family: sans-serif;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* header */
 
 nav {
@@ -758,13 +770,14 @@ footer {
   padding: 0.6em 6em 1em 6em ;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #666;
   font-size: x-small;
   margin-left: 1em;
   font-family: sans-serif;
 }
-footer a:hover{
+
+footer a:hover {
   text-decoration: underline;
 }
