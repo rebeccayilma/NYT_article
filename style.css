@@ -629,10 +629,19 @@ iframe {
 
 .right_info a {
   line-height: 1em;
+  cursor: pointer;
+}
+
+.right_info a:hover {
+  color: #666;
 }
 
 .card img {
   width: 100%;
+}
+
+.card a {
+  cursor: pointer;
 }
 
 .subtitle {
