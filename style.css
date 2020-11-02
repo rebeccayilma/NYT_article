@@ -118,14 +118,6 @@ q {
   quotes: none;
 }
 
-blockquote :before,
-blockquote :after,
-q :before,
-q :after {
-  content: "";
-  content: none;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -278,7 +270,6 @@ main {
   align-items: baseline;
   padding-top: 1em;
 }
-
 
 .article_info a {
   color: black;
@@ -546,7 +537,7 @@ iframe {
   margin: 1em 0 1em 0;
 }
 
-.suggested_title p ,
+.suggested_title p,
 .suggested a {
   font-weight: bolder;
   font-family: sans-serif;
@@ -613,8 +604,7 @@ iframe {
   font-weight: bolder;
   font-family: sans-serif;
   border-top: 1px solid black;
-  padding-top: 1.4em;
-  
+  padding-top: 1.4em;  
 }
 
 .right_info {
