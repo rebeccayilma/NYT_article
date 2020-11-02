@@ -603,3 +603,24 @@ iframe {
 .top img {
   width: 30%;
 }
+
+.right_side p {
+  font-weight: bolder;
+  font-family: sans-serif;
+  border-top: 1px solid black;
+  padding-top: 1.4em;
+  
+}
+
+.right_info {
+  font-size: 1.2em;
+  font-style: bolder;
+}
+
+.right_info hr {
+  margin: 1em 0;
+}
+
+.right_info a {
+  line-height: 1em;
+}
