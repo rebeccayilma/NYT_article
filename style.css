@@ -128,9 +128,9 @@ table {
 nav {
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.3em;
+  padding: 0.5em;
   border-bottom: solid 1px #e2e2e2;
   width: 100%;
   background-color: white;
@@ -202,12 +202,17 @@ header button {
   border: solid rgb(85, 121, 147);
 }
 
+.mr-1 {
+  margin-right: 1em;
+}
+
 /* Main */
 
 main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 3em;
 }
 
 .banner {
@@ -760,4 +765,36 @@ footer {
   margin: 1em;
   border-top: 1px solid #ddd;
   padding: 0.6em 6em 1em 6em;
+}
+
+.sticky_footer {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  font-family: sans-serif;
+  padding: 1.5em;
+  border-top: 1px solid black;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+
+.collapsed_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.sticky_svg {
+  width: 12px;
+  height: 12px;
+}
+
+.expand {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: small;
 }
