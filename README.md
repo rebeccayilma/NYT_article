@@ -1,14 +1,18 @@
-![Screenshot](https://github.com/rebeccayilma/NYT_article/blob/development/assets/Screenshot.png?raw=true)
-
-
-
-# Positioning and Floating Elements
+# NYT Article
 
 This project consists in do a clone of a New York Times article page, based on an article from Space Ripples Reveal Big Bang’s Smoking Gun.
+
+
+![Screenshot](https://github.com/rebeccayilma/NYT_article/blob/development/assets/Screenshot.png?raw=true)
+
 
 ## Description of the Project
 
 This page was build to demonstrate the use of CSS grid, flexbox , and float inorder to align the of the elements in different sections of the page.
+
+## Live Link
+
+Feel free to check the [Live Demo](https://rebeccayilma.github.io/NYT_article)
 
 ## Built With
 
@@ -18,14 +22,14 @@ HTML & CSS
 
 👤 Rebecca Yilma
 
-- GitHub: https://github.com/rebeccayilma/
-- LinkedIn: https://www.linkedin.com/in/rebecca-yilma-46a94a121/
-- Twitter: https://twitter.com/Rebeccayilma
+- GitHub: [@rebeccayilma](https://github.com/rebeccayilma)
+- LinkedIn: [Rebecca Yilma](https://www.linkedin.com/in/rebecca-yilma-46a94a121)
+- Twitter: [@Rebeccayilma](https://twitter.com/Rebeccayilma)
 
 
 👤 Alexis Varela
 
-- GitHub: [@alexisbec](hhttps://github.com/alexisbec)
+- GitHub: [@alexisbec](https://github.com/alexisbec)
 - LinkedIn: www.linkedin.com/in/alexis-varela-2584111b7
 - Twitter: https://twitter.com/AlexisV31667779
 
@@ -33,8 +37,6 @@ HTML & CSS
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [https://github.com/rebeccayilma/NYT_article/issues]
 
 ## Show your support
 
